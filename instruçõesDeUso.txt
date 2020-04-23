@@ -1,0 +1,11 @@
+Pré requisitos para funcionamento: Obter instalado as versões atuais dos programas XAMPP e MySQL Workbench 8.0 CE.
+
+Foi utilizado neste trabalho o banco de dados MySQL e como linguagem de programação, PHP. Foi feito puramente, sem uso de frameworks para uso de login e/ou parte de front-end
+
+O começo deste trabalho está no "index.php", aonde aparecerá os campos de login, senha e se o usuário irá logar-se como administrador ou como usuário
+
+Caso logado como administrador, aparecerá uma próxima tela o "pessoa_index.php", aonde mostrará todos os usuários cadastrados. Caso seja logado como usuario, irá aparecer uma mensagem de boas vindas
+
+Acontecerá o erro de logar caso informar:
+	-- absolutamente nada (irá mostrar uma mensagem que deverá preencher os campos necessários).
+	-- login e senha.
